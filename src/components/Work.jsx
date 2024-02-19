@@ -81,11 +81,11 @@ function Work() {
   });
 
   return (
-    <div className="w-screen h-[80vh] flex items-center justify-center pointer-events-none">
-      <div className="w-full sm:max-w-screen-xl mx-auto sm:mx-auto sm:text-center">
-        <h1 className="text-[39vw] leading-none tracking-light font-semibold absolute -left-[31%] top-[50%] rotate-[-90deg] sm:rotate-0 sm:left-[50%] sm:top-[2%] sm:-translate-x-[50%] m:-translate-y-[50%] ml-8">work</h1>
-        <h1 className="text-[39vw] leading-none tracking-light font-semibold absolute left-[30%] top-[50%] rotate-[-90deg] sm:rotate-0 sm:hidden ml-8">work</h1>
-        <h1 className="text-[39vw] leading-none tracking-light font-semibold absolute left-[-0.6%] bottom-[44.6%] rotate-[-90deg] sm:rotate-0 sm:hidden ml-8">work</h1>
+    <div className=" h-[80vh] w-full pointer-events-none">
+      <div className="max-w-screen-xl">
+        <h1 className="text-[39vw] leading-none tracking-light font-semibold absolute -left-[23%] top-[50%] rotate-[-90deg] sm:rotate-0 sm:top-[50%] sm:left-[50%] sm:-translate-x-[50%] sm:-translate-y-[50%]">work</h1>
+        <h1 className="text-[39vw] leading-none tracking-light font-semibold absolute left-[34%] top-[50%] rotate-[-90deg] sm:rotate-0 sm:hidden">work</h1>
+        <h1 className="text-[39vw] leading-none tracking-light font-semibold absolute left-[3%] bottom-[44.6%] rotate-[-90deg] sm:rotate-0 sm:hidden">work</h1>
         <div className="absolute top-0 w-full h-full">
           {images.map(
             (elem, index) =>
@@ -105,3 +105,5 @@ function Work() {
 }
 
 export default Work;
+
+// 

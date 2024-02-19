@@ -16,30 +16,30 @@ function Products() {
       live: true,
       case: false,
     },
-    {
-      title: "TTR",
-      desc: "We've created an interactive site using generative AI to allow users to engage with our thinking about Ai, industry trends and design.",
-      live: true,
-      case: false,
-    },
-    {
-      title: "Maniv",
-      desc: "A global early-stage venture fund partnering with founders to advance cleaner, safer, and more sustainable movement of people and goods.",
-      live: true,
-      case: false,
-    },
-    {
-      title: "YIR 2022",
-      desc: "Our second year was filled with great events, exciting projects, awards and amazing people - so we made another showcase to celebrate.",
-      live: true,
-      case: true,
-    },
-    {
-      title: "Yahoo",
-      desc: "We enhanced the New York Fashion Week, by creating a fully digital AR fashion experience for Yahoo and Maisie Wilen, featuring holographic 3D models and an integrated web shop.",
-      live: true,
-      case: true,
-    },
+    // {
+    //   title: "TTR",
+    //   desc: "We've created an interactive site using generative AI to allow users to engage with our thinking about Ai, industry trends and design.",
+    //   live: true,
+    //   case: false,
+    // },
+    // {
+    //   title: "Maniv",
+    //   desc: "A global early-stage venture fund partnering with founders to advance cleaner, safer, and more sustainable movement of people and goods.",
+    //   live: true,
+    //   case: false,
+    // },
+    // {
+    //   title: "YIR 2022",
+    //   desc: "Our second year was filled with great events, exciting projects, awards and amazing people - so we made another showcase to celebrate.",
+    //   live: true,
+    //   case: true,
+    // },
+    // {
+    //   title: "Yahoo",
+    //   desc: "We enhanced the New York Fashion Week, by creating a fully digital AR fashion experience for Yahoo and Maisie Wilen, featuring holographic 3D models and an integrated web shop.",
+    //   live: true,
+    //   case: true,
+    // },
   ];
 
   const [position, setPosition] = useState(0);
@@ -58,7 +58,7 @@ function Products() {
           initial={{ y: position, x: "-50%" }}
           animate={{ y: position + `rem` }}
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-          className="window absolute h-[23rem] w-[30rem] left-[45%] overflow-hidden rounded-lg"
+          className="window absolute h-[12rem] w-[20rem] sm:h-[23rem] sm:w-[30rem] left-[50%] top-[70%] sm:left-[45%] sm:top-0 overflow-hidden rounded-lg"
         >
           <motion.div
             animate={{ y: -position + `rem` }}

@@ -18,9 +18,9 @@ const App = () => {
       <Work />
       <Stripes />
       {/* <Products /> */}
-      {/* <Marquees /> */}
-      {/* <Cards /> */}
-      {/* <Footer /> */}
+      <Marquees />
+      <Cards />
+      <Footer />
     </div>
   )
 }
